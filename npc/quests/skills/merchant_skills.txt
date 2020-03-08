@@ -172,7 +172,7 @@ alberta,83,96,5	script	Necko	98,7,7,{
 	mes "come again later. Hehe~";
 	close;
 
-OnTouch_:
+OnTouch:
 	mes "[!?]";
 	mes "Muahahahahahahahahahahahaha!!";
 	mes "Pukakakakakakakakakakakakaka!";
@@ -701,7 +701,7 @@ alberta,119,221,6	script	Charlron	107,{
 				close;
 			case 2:
 				mes "[Sushi King Gershaun]";
-				if (Sex == SEX_FEMALE) {
+				if (Sex > 1) {
 					mes "Stupid girl!";
 				}
 				else {
